@@ -1,0 +1,25 @@
+* first question :
+- how do i create hidden file or folder ?
+ to crate hidden folder we type this command : " mkdir .Flodername"
+we type . dote  before folder name and its same for files but instaed of "mkdir" we type "touch .FileName"  ,
+
+- how do i display it in the CLI ?
+there is tow way to display hidden folder or file :
+1 -" ls -rf" 
+2 -" ls -a "
+
+* second question :
+- how do i create multiple nested directories ?
+we type this command for nested directories : " mkdir -p ../../../ "
+and for directories in current location : " mkdir {...,..,..,}
+
+* third question :
+- how do i append message to a file without a newline character ?
+i google it and acoording to answers i have to type this command : "echo -n message >> file.txt " 
+so i will try it here in this txt file :
+first message . 
+
+second message
+
+
+its work :)
